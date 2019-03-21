@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eleanor's Type 2 Diabetes</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style>
+		* > .gallery{
+			float: left;
+		}
+
+		.diabetestitle {
+			padding-right: 20px;
+			border-right: 2px solid grey;
+		}
+
+		.leftmargin {
+			margin-left: 20px;
+		}
+
+		.topmargin {
+			margin-top: 20px;
+		}
+
+		.rightmargin {
+			margin-right: 20px;
+		}
+
+		.gallery {
+			max-width: 600px;
+			margin-top: 30px;
+			margin-left: 20px;
+			margin-bottom: 30px;
+		}
+
+		.d-block {
+			border-radius: 25px
+		}
+
+		.white {
+			background: rgba(169,169,169,0.4);
+			border-radius: 25px;
+		}
+
+		img .carousel-caption {
+			border-radius: 25px;
+		}
+
+		table {
+		  border-collapse: collapse;
+		  width: 97%;
+		  margin-right: 3%;
+		  margin-bottom: 20px;
+		}
+
+		td, th {
+		  border: 1px solid #dddddd;
+		  text-align: left;
+		  padding-top: 8px;
+		  padding-bottom: 8px;
+		  padding-left: 8px;
+		}
+
+		tr:nth-child(even) {
+		  background-color: #dddddd;
+		}
+
+		.borderradius {
+			border-radius: 25px;
+			margin-top: 50px;
+		}
+
+		.floatright {
+			float: right;
+			width: 40%;
+			margin-right: 20px;
+			border-radius: 25px;
+		}
+
+		/*.floatleft {
+			float: left;
+			width: 60%;
+			margin-left: 20px;
+			border-radius: 25px;
+		}*/
+
+		p.floatright {
+			align-self: center;
+			background-color: lightgrey;
+			margin-top: 32px;
+			padding: 20px;
+			display: inline-block;
+		}
+
+		p.floatleft {
+			align-self: center;
+			background-color: lightgrey;
+			margin-top: 32px;
+			padding: 20px;
+			width: 40%;
+			display: inline-block;
+			margin-left: 100px;
+			border-radius: 25px;
+		}
+
+		img.floatright {
+			max-width: 30px;
+			display: inline-block;
+			margin-left: 10px;
+		}
+
+		img.floatleft {
+			float: left;
+			margin-right: 10px;
+			width: 30%;
+			margin-top: 32px;
+		}
+
+		.totop {
+			width: 140px;
+			text-align: right;
+			position: fixed;
+			bottom: 3%;
+			left: 87%;
+			padding: 10px;
+			background-color: rgb(211, 211, 211);
+			border-radius: 25px;
+			border: 2px solid rgb(169, 169, 169);
+		}
+
+
+		.diagramcntn {
+			width: 100%;
+		}
+
+		ol li {
+			font-weight: bold;
+		}
+
+		.green {
+			color: green;
+		}
+
+		.red {
+			color: red;
+		}
+
+		.orange {
+			color: orange;
+		}
+
+		.brown {
+			color: brown;
+		}
+
+	</style>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+	  <a class="navbar-brand diabetestitle" href="#">Eleanor's Diabetes CRLT</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#navbar">Top<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#part1">Part 1</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#part2">Part 2</a>
+	    	</li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<h1 class="leftmargin topmargin">Type 2 Diabetes</h1>
+	<br><br>
+
+	<div class="jumbotron" id="part1">
+	  <h1 class="display-4">What is type 2 diabetes?</h1>
+	  <p class="lead">Type 2 diabetes mellitus, also known as type 2 diabetes, is a metabolic disorder in which the pancreas doesn’t make enough insulin and/or the cells become resistant to insulin. Unlike type 1 diabetes, type 2 can be managed with changes to your diet and exercise.</p>
+	  <hr class="my-4">
+	  <p>Insulin is a hormone produced by the pancreas, a large gland located in your abdomen behind your stomach, that regulates the glucose levels in your blood. </p>
+	</div>
+
+
+	<div class="leftmargin topmargin">
+		<h3>Risk Factors</h3>
+		<p>Factors that could contribute to someone getting type 2 diabetes include:</p>
+		<ul>
+			<li>being overweight or obese</li>
+			<li>having high blood pressure</li>
+			<li>having a family history of diabetes</li>
+		</ul>
+	</div>
+
+	<div class="topmargin leftmargin">
+		<h3>How to reduce your risk:</h3>
+	</div>
+	<div class="list-group">
+	  <a class="list-group-item list-group-item-action">
+	    <div class="d-flex w-100 justify-content-between">
+	      <h5 class="mb-1">Lose Weight</h5>
+	    </div>
+	    <p class="mb-1">You may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.</p>
+	  </a>
+
+	  <a class="list-group-item list-group-item-action">
+	    <div class="d-flex w-100 justify-content-between">
+	      <h5 class="mb-1">Move More</h5>
+	    </div>
+	    <p class="mb-1">Get at least 30 minutes of physical activity five days a week.</p>
+	  </a>
+
+	  <a class="list-group-item list-group-item-action">
+	    <div class="d-flex w-100 justify-content-between">
+	      <h5 class="mb-1">Eat Mostly Healthy Foods</h5>
+	    </div>
+	    <p class="mb-1">Try and reduce calories, for example, water instead of sweetened drinks, and less fatty foods.</p>
+	  </a>
+	</div>
+
+	<div class="jumbotron">
+	  <h1 class="display-4">Glycemic Index</h1>
+	  <p class="lead">The glycemic index (or GI) is a ranking of carbohydrates on a scale of 0 to 100 according to how much they raise blood sugar (glucose) levels after eating.</p>
+	  <hr class="my-4">
+	  <p>Foods that are quickly digested, absorbed and metabolised are high GI foods. <br>Low GI foods, which produce smaller fluctations in blood glucose and insulin levels, reduce your risk of type 2 diabetes and is key to maintaining weight loss.</p>
+	</div>
+	<table class="topmargin leftmargin">
+		<tr>
+			<th>Low GI (GOOD)</th>
+			<th>High GI (BAD)</th>
+		</tr>
+		<tr>
+			<td>Oatmeal/Muesli</td>
+			<td>White Bread</td>
+		</tr>
+		<tr>
+			<td>Sweet Potato</td>
+			<td>White Rice</td>
+		</tr>
+		<tr>
+			<td>Pasta</td>
+			<td>Melon</td>
+		</tr>
+		<tr>
+			<td>Non-starchy Vegetables, eg Carrot</td>
+			<td>Pineapple</td>
+		</tr>
+		<tr>
+			<td>Most Fruits</td>
+			<td>Russet Potato</td>
+		</tr>
+	</table>
+
+
+	<div class="jumbotron borderradius" id="part2">
+	  <h1 class="display-4">Fibre</h1>
+	  <p class="lead">Fibre is the indigestible parts of plant foods, such as vegetables, fruits, grains, beans and legumes. It is type of a carbohydrate that helps keep our digestive systems healthy. It is important for digestive health and regular bowel movement.</p>
+	</div>
+	
+	<h3 class="leftmargin">Types of Fibre Include:</h3>
+	<div class="list-group">
+		<a class="list-group-item list-group-item-action">
+	    <div class="d-flex w-100 justify-content-between">
+	      <h5 class="mb-1">Soluble Fibre</h5>
+	    </div>
+	    <p class="mb-1">Helps to slow the emptying process in the stomach, which helps you feel fuller. It also helps to lower cholesterol and stabilise blood glucose levels. It is found in fruits, vegetables, oats, barley and legumes.</p>
+	  </a>
+
+	  <a class="list-group-item list-group-item-action">
+	    <div class="d-flex w-100 justify-content-between">
+	      <h5 class="mb-1">Insoluble Fibre</h5>
+	    </div>
+	    <p class="mb-1">Absorbs water to help to soften the contents of the bowels and support regular bowel movements. It also helps to keep us full and keep the bowel environment healthy. It is found in wholegrain breads and cereals, nuts, seeds, wheat bran and the skin of fruit and vegetables.</p>
+	  </a>
+
+	  <a class="list-group-item list-group-item-action">
+	    <div class="d-flex w-100 justify-content-between">
+	      <h5 class="mb-1">Resistant Starch</h5>
+	    </div>
+	    <p class="mb-1">Is not digested in the small intestine and instead goes to the large intestine where it can assist in the production of good bacteria and improves bowel health. It is found in undercooked pasta, under-ripe bananas, in cooked and cooled potato, and in rice.</p>
+	  </a>
+	</div>
+
+
+	<div class="gallery">
+		<div class="highfibre">
+			<div class="bd-example">
+			  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			    <ol class="carousel-indicators">
+			      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+			      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+			      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+			    </ol>
+			    <div class="carousel-inner">
+			      <div class="carousel-item active">
+			        <img src="https://lh3.googleusercontent.com/zTlLuOXvY04y7SGZaH07Kn6nNART5cj3elMnkq3eQRDnXSDCs4Ghk6hUAmBY_iEKnHzam2tnYuNcCgE_i-W7BiRMkwqfkuM_at-CcsJQPSHhlLaluxJFjq6jQPSvTQsb-uyI-TcfDV0qZElCGnWwOfKcptZKoK1WOWqvrUQIGygpjShJNyfVj7HMuI0g_5gHBs37SbqFCZ_-mLxopuR9e3QW9INZiw1Ta7RfqkuxILJYFrt2vwXc_ynaf3OtS_EGLGo2Cm7-Ul3pZ_AKueG3ygOKFRPadzBz9BmO8zjfpuxYzbQCaqHkoNpzv4wiDLwLlEm5fx0HyzRJhcPwxYPW8VHXYMPdkUm46ezrtBn_lRSHOialowxxtyIpoXC2gtSu48YUjZgG61KqKUs6uZgDTZcoH8ndcHFweogTlbz8_MBzIpvvBZinx2Pw-fnzWf2cc0Fw4q2EuUmS3eKzF0a7Mpl6tjJH8GcRbPqU4xThqPk8Dzg9qw_0wkNtqk8vt_YzjROlzpzt3GhCYkEFJeSCj-q4TzrpBfw3x7HLZ6vNYUJm0vm4Xfp3JwK_g3ZR8K0gms0Q5oRSqZ3JmOaU3cdH3gj23OdcUTN56YQSl7ujlV5bHlUxvpl9wr8VU4sYLZpQXu0Zk3dxZNopFuDM7wru90g7-QYljWA=w871-h551-no" class="d-block w-100" alt="wholegrain foods">
+			        <div class="carousel-caption d-none d-md-block white">
+			          <h5>Wholegrain Foods</h5>
+			          <p>contain dietary fibre</p>
+			        </div>
+			      </div>
+			      <div class="carousel-item">
+			        <img src="https://lh3.googleusercontent.com/e1XwxKLvzXW7sFLECA02oYnAwhUTFNu8A9WPHEYvZ99X9uWzTASdt2ZyLXMfMkAWm5giifVkxl-R5QNhNMOnybPUZUCWz6-jDoQQODqvOayO4_0F68vSWYp4dR04DJdOWQeU6jXu21kPQZxQRAFx-4At8t0UVW3ltbtcvCL0JDTTOOjsU_YHclK1AI-WBeH5th57QCKNyamDhjE34zVvfa3s9jSUX2mQins7WMh8yVmzUX4z5p5tonj-sDmtLsH0-4LSs10sHUt3coze9tkm3BfTuX-Ost5qChXbZ-VNDLjAN9BDnLwm-8OleW7jtxjH2nVYQ-thCMVRgP0JmEcoaA5qr0a0J-DauUCmWRmfGK5s5sbFuf36Be5iNFrnoqi4OOz-tIV6R1iXAw5SGZlt5a3cGaS1YQqlC6AAwX0CRzGkT2zXuXA3VIeZCvT7TeUU6Rq655Efw4w4zKfpg9IP7-IqZ5I95v-TCw5e5CyFwIDoJSPhixIcogr8dFbbX-X4NWrTvSLhsAgJot8pCOe1g3ojOiZojo-FiaKPEAKW0KE03qyMQl-k8BM30EOoV99mGBrStJ2qZbnXaYc29j6YUokDbXBuXG8Oe5qVYAGryyHh2H3CEtwHxpQV3jlpoRJ3n3GMcKab8sE1h1b7VPlqTYm4_3e5UXk=w871-h551-no" class="d-block w-100" alt="nuts">
+			        <div class="carousel-caption d-none d-md-block">
+			          <h5>Nuts</h5>
+			          <p>contain insoluble fibre</p>
+			        </div>
+			      </div>
+			      <div class="carousel-item">
+			        <img src="https://lh3.googleusercontent.com/0doghgxaGSuDL3qsNLTzuduWhD59FFWl7k4N1tGXLoBrD3BYmAXDvezYzvbFkchl8eIGLBh138d5eJ4nRVJUh2I1eNEqBBarlj4_Uf6lEWWQFaruBpsUvCwJEiNOSFOuGuZFVVkSALhD-kuLDLmHC-9yWVwyUHjNpVx_h-cBMp2tpXMCmaZy5J6-BDtAv7AjEHlyO5C0xIbnrqQqRIcLPZ3zkTscTDXqFue3LI24odmlkNJiqj811OL3P1ebXNCL5WEodz6ytKnU8BIeuBFMNvDxooxX9iFdwO3-xy0Zs3wedpyl7gZr23QNtOlu5GNxn0td91x3LvXcUZne67hg6ZF7wmWc31ddHtsVXgMdJzUGYFeOcYohIeYswSRb-Yv-L8266Cg6PX0aCPMXUK4A_f0fIAXCVakSTWUleuxzwvFfGnXu4aNn7OHg9qMBsGBKodNvBgclmi3g_yIFZVwgPus10GfZyCwul36arZSFhg-n_z5eQM3TQrp-E8lhOPfrxFUUUUjspG-EL5BvJm02-G4Mak0zM_j_kndntglvTvoCCf-A6ludvHq3fIuPYgecABOZhOralOQSJiIIVtOP42163FKarQRwdVvNT73DMECv-s_VCtVk755TJP1sPgt_-ml5g2b5ZW_lLZM10YDcWdFTlobIrxE=w871-h551-no" class="d-block w-100" alt="bags of grain">
+			        <div class="carousel-caption d-none d-md-block">
+			          <h5>Grains</h5>
+			          <p>contain resistant starch</p>
+			        </div>
+			      </div>
+
+			      <div class="carousel-item">
+			        <img src="https://lh3.googleusercontent.com/VNT_nBaSQEfrJqXlLq2me5LSgv5NwRVlP9-5G_lziZxqqTGT8X0WQ44e4vMhITJBJU1J_gDKOLVHwOeQ3Mi1SckVA6R0cTF1kCfdtCn_ugjJgcrO1HNLGHJo2gtFFZxWOWXxn2G76mx_IBJc-dAGfPr0Vt3b_5zMO1kGYLhUICyLPhh62G-h31Zk_dbvH6m2Z5M2XG0Cxjpmb4OGfXlVCYjxcLqG1gPAd--NSoe2IvufdBR3i4RnzcEkNcocfNyo_SCRuogA08ywzs0-ilZwA9SRvOHRurgFsDpI1yrr0ZkdRrQwob5TAIEh0IqA9AVdi_TjCxM3R7PmhErhNtdYkpc8uxaGxpBFXYZWX4sjfVkyXAbl8QnxGsLf0RWxTty5KZaPZqT2dRtLpfTIMZQnA90esSZFr2U_0KQIm1vY7v9ITI69U7rhOZvMkoR5z2wyl1cxefx8p5-FWIFRHTFJr3LN7dFulh7K_ymmSCiC79Xnoac4p-_evoMlZeweoDiLvv8K7YQYyKZpBflV7lo10Hxn-zQVEMUCMS7A1O6lWw97MTx1CY2Dsm03Q0DxTHrB4iU6e7DdWBc01_F5DAz8Qg4ZyU3kUQ_vQ64piZwSIrHud2rB7p1nCIgtn2drrGqKcQCSY5TrNLTz7Yb6nMJDXH4F-v-qNe8=w871-h551-no" class="d-block w-100" alt="oats">
+			        <div class="carousel-caption d-none d-md-block white">
+			          <h5>Oats</h5>
+			          <p>contain soluble fibre</p>
+			        </div>
+			      </div>
+
+			      <div class="carousel-item">
+			        <img src="https://lh3.googleusercontent.com/VmeqG_LBL4IeChlddo4hVPQ3eIUph8C5yI8AkWZIrFjqBDwhyUiKUOIEoY0sOKwnFLp4b7-OT5ASPGHWwGEv8lV1Yaudk5YdOcjSxiYPaRkh9ktA-T6iUi1EASvcJPHlTvLtu6y_06--kSaDeRuBOTR8kykh4qfTmIVTecMPhcVemTyEN2PdzsZZBGqq2mPWPhRTJi4p7ZOB_Hrfx9VmgL_ddq53bOHhzzyBQ6leVm1spwrL9xJLLXnT1tD8-5wf3b8qOMGrio9R3J6eRz-ms3hIHGrNvnEebf3R6gxSrtFLrx9-aWnq0YXRsvuFKjvN5xU0m3npDAU2Ru_jGzXpkU12spWaxlBCROcsMhG7E8hfOjFhywr6y_w8i8bscngviEOffMjUuChLa4YFGxxS3GLslhZ1LWpI869H9PdB5xbDmVEGS7GznYrcKL92e5DlqxlyONQjJDnocC1PxsWSdVDN2tjSNYhGBj4eNqMHlwGHiZj270udnzfHMLElyRA-Wd8fSIjHhymRfJggMyYCSA1ErZRjzFGb2yJn7lYOSJwoBIQ_J5bYfayGCHuZ7sFCCYip-g7kKCQHqXbesPiEBAqD1nDjJSzALKKawdZAeoMdcep_Ngxeo_mAoDWJCuJhl3X0VGLcmwtuYmUJf1YxEJ951_SFvwM=w871-h551-no" class="d-block w-100" alt="fruits">
+			        <div class="carousel-caption d-none d-md-block">
+			          <h5>Fruits</h5>
+			          <p>contain soluble fibre</p>
+			        </div>
+			      </div>
+
+			    </div>
+			    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			      <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			      <span class="sr-only">Next</span>
+			    </a>
+			  </div>
+			</div>
+		</div>
+
+		<div class="lowfibre">
+		</div>
+	</div>
+
+	<p class="floatright"><strong>Fibre</strong>, soluble fibre in particuar, can slow the absorption of sugar and help improve blood sugar levels. A healthy diet that includes soluble and insoluble fibre may reduce the risk of developing type 2 diabetes.
+		<br><br>
+	High-fibre foods also help with weight loss, as they tend to be more filling than low-fibre foods, so you're likely to eat less and stay satisfied longer. High-fibre foods tend to take longer to eat and be less 'energy dense', which means they have fewer calories for the same volume of food.</p>
+
+
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<h1 class="display-4 topmargin leftmargin" id="burger">High-Fibre Burger</h1><br>
+	<h3 class="leftmargin">Tips for Making a Successful Burger:</h3>
+	<ol>
+		<li>Indent the top of the patties:</li>
+		<p>If you use your thumb to indent the top of the patties before cooking, as it's cooking and the juices try to escape they'll pool in the dent, and get reabsorbed instead of running down the side and getting lost.</p>
+		<li>Don't press down on patties while cooking:</li>
+		<p>Pressing down on patties while cooking will force out all the natural juices, and will make the patties dry.</p>
+		<li>Use fresh tomatoes and crisp lettuce:</li>
+		<p>The fresher the ingredients the more refreshing and tasty the burger. Always put the tomato on top and the lettuce on the bottom, so that it can catch some of the juices going through the burger.</p>
+	</ol>
+
+	<h3 class="topmargin leftmargin rightmargin">Possible Ingredients for Hamburgers:</h3>
+	<table class="topmargin leftmargin">
+		<tr>
+			<th>Meat</th>
+			<th>Fruit/Veg</th>
+			<th>Flavourings</th>
+			<th>Herbs</th>
+			<th>Sauces</th>
+			<th>Breads</th>
+		</tr>
+
+		<tr>
+			<td>Beef</td>
+			<td>Lettuce</td>
+			<td>Salt</td>
+			<td>Coriander</td>
+			<td>Tomato Sauce/Relish</td>
+			<td>White Bun</td>
+		</tr>
+
+		<tr>
+			<td>Chicken</td>
+			<td>Tomato</td>
+			<td>Pepper</td>
+			<td>Rosemary</td>
+			<td>Chutney</td>
+			<td>Wholemeal Bun</td>
+		</tr>
+
+		<tr>
+			<td>Lamb</td>
+			<td>Carrot</td>
+			<td>Chilli Pepper</td>
+			<td>Parsley</td>
+			<td>Mustard</td>
+			<td>White Bread</td>
+		</tr>
+
+		<tr>
+			<td>Pork</td>
+			<td>Beetroot</td>
+			<td>Paprika</td>
+			<td>Chives</td>
+			<td>Chilli Sauce</td>
+			<td>Wholemeal Bread</td>
+		</tr>
+	</table>
+
+	<div class="diagramcntn">
+		<img src="https://lh3.googleusercontent.com/Lvr7_JqBssavzFxJE-TAHrIdlxc6zpQx9xa6loSo40PXPcXQ7YTG5GoPi89slV0NvhC58UBItwy417ZHlUyj3hjuCxBqGusK18DCkkxPZNhz8l3of5hZkf-bN94h4Cpd03CPdNN7A1DvE1DnIlOjF8uN96max4JjSHwcZrhud0rN2TN-zzgX7AzzIbUGogrze9ltc_FGr9ZrWnlcBMSp_K_oNc4DyUDIgx6tAoT2wtFNnU9gtDSfUTnk9Ps8y85ErP_EdrPR7-7kG7nTV1FNYqYpZ9NFSuB6jHi-G2MNljwCQX88nZFmhHmi8UeEhdo7ufjzeKcxAa0SnC1pZrc1wKpMkvBHHPVdziH3-huk_mL5KrHkE69oGR1rzrWDfbpc4Us-ogfv7T302YaYmZPDhfg_S-kq6C6GwqZgQSVTaWJ32LK2qSRrLm_KpUg-jblqs_oQYxjwwafBOf8EQv8uRZ43oeTXwb4Us0_UXwVnDqzh2zzknO4Ve0WN111vDFrAxliJUVPPVR6cZhsIKvHhrfuhTba3Da74EHtXk_8qLmMC8q3ik7gC6gC5k78bb-aVv-k9gef9sDHwZo1uhe_ge8RgNPvJP-GprYJk7uExnQK9KczgiV_4jTC2dIJwnfGyzZ6NuTo9pZKixJ9SnopabmqBQNJwm08=w611-h916-no" class="floatleft">
+		<p class="floatleft">My <strong class="brown">high-fibre burger</strong> is of a simple deisign. Encased in a <strong>wholegrain bun</strong> are, from top to bottom, a quarter of a <strong class="orange">grated carrot</strong>, a few slices of <strong class="red">tomato</strong>, a <strong class="green">lettuce leaf</strong> and a <strong class="brown">beef patty</strong> with <strong class="red">tomato sauce</strong> spread on top of it. Last but certainly not least, underneath the <strong class="brown">patty</strong> is another <strong class="green">lettuce leaf</strong> to catch the juices running through the burger!</p>
+
+		<p class="floatleft">The <strong class="brown">wholegrain bun</strong> contains all three mentioned fibres: soluble, insoluble, and resistant starch.
+		<br>
+		The <strong class="orange">grated carrot</strong> contains soluble and insoluble fibre, while the
+		<br>
+		<strong class="red">tomato </strong>contains mainly soluble fibre.
+		<br>
+		The <strong class="green">lettuce leaves</strong> contains some soluble but mainly insoluble fibre, and
+		<br> the <strong class="red">tomato sauce</strong>, like the <strong class="red">tomato</strong>, contains mainly soluble fibre.
+		<br>
+		The <strong class="brown">beef patty</strong> contains no fibre, as it is made of eggs and meat, both of which have little to no fibre content.
+		</p>
+	</div>
+			<div class="toto">
+				<a href="#navbar"><img class="totop" src="https://lh3.googleusercontent.com/Vy97eUdrMcMpcGhyHOmu-PnKqBLNZEkc_tLAmFUrftO7vsbLwEp0SfZ6Eop1dB5cz8e4PwJEZAvB6RXjtuapemEWkbNRi74eXDK9eqgVlVRuA2D-Z45Drr3etI9Nu5TDWLtiZBtqOq05RxUgAr-gHDpOolaRi7wFNYRSDy4goiLOcvfIwdMvMXSgRVociaZVp9oc5FNqHcfGWd-62p6sCnPF0oRYgkOa30tHuTQ8YcJ5mhw0jc_O13p-xqVtEptH9bkfDdwOE0GxKyBcxD14uUBLpC-9xs0-NKz1i-Mw1Jn_8CeE4Vl7lBV-UWM3bR3AF2opphQDikyRXldFVzyPoYI1KggXfhW7aJurM-nWRuuVE5IKQmyD6_8ybNQD6dBFEH8lVLIG-zgUBUTTtKbuDNOgiQqdsgG1zHnq9ON9Aq6n046HeP8_miGU7ROUDI02Df32YGtkc8XABebaeayNocbpUm9gekSlFAiHQiwpBPZF87Qc9xqez4SP83ER7FH9swtID70kycJeHuqSsTKPHno1zwATs4AcNNqV8zFw4EC6AArbvE8p9gjhoSvo54f40VLTzHbAR94MN347lUzAbeD6H9WFyyA5pE2-Ptn3LcF9y-rItCCRgS7F9iTGRTvm1y8YpdAFzCcsT-3c5Oac7urX_pdLdnk=w225-h65-no">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
